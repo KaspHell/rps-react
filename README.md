@@ -1,10 +1,10 @@
-# Real Rocks, Papers and Scissors --- RPS -game with image recognition AI
+# RPS game with image recognition AI
 
-New way to play classic Rock, paper, scissors -game. With image recognition AI you can show physical objects to your devices camera
-and play your turn that way.
+With image recognition AI you can show physical objects to your devices camera to play your turn.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It's powered by [Tensorflow.js](https://www.tensorflow.org/js/guide/nodejs) and [Teachable Machine](https://teachablemachine.withgoogle.com/) by Google.
 
+![screenshot](https://drive.google.com/file/d/1KvLFf3xmTG-VsqCy9D-m5MAzTLjqf1w5/view?usp=sharing)
 ---
 
 ## Available Scripts
