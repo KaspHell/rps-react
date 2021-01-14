@@ -1,0 +1,269 @@
+.disable{
+  padding: 0;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-flow: wrap;
+  align-items: stretch;
+  justify-content: center;
+  align-content: stretch;
+}
+
+.flexbox-item-1 {
+  align-items: flex-start;
+  background-image: linear-gradient(to right, #f54c71 51%, #FF8008 100%);
+  background-size: contain;
+  font-family: Montserrat, sans-serif;
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 5px;
+  line-height: 100px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  -moz-box-shadow: 0 0 25px #FF8008;
+  -webkit-box-shadow: 0 0 25px#FF8008;
+  box-shadow: 0 0 25px #FF8008;
+}
+
+h1 {
+  padding-left: 140px;
+  margin: 0;
+}
+
+.flexbox-item-2 {
+  padding: 28px;
+  min-width: 320px;
+  max-width: 700px;
+  min-height: 240px;
+  flex-grow: 1;
+  flex-basis: 0;
+  order: 1;
+}
+
+.flexbox-item-3 {
+  padding: 28px;
+  width: 600px;
+  flex-grow: 0;
+  flex-basis: 0;
+  order: 2;
+}
+
+.flexbox-item-4 {
+  padding: 28px;
+  min-width: 450px;
+  max-width: 700px;
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 400px;
+  min-height: 240px;
+  order: 3;
+}
+
+.userWebCam {
+  width: 100%;
+  margin: 6px;
+  border-radius: 4px;
+}
+
+.possibilities {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 6px;
+  height: 60px;
+  font-size: 17px;
+}
+
+.btn-block {
+  color: black;
+  font-weight: bold;
+  border: 0px;
+  margin-top: 33px;
+  height: 60px;
+  font-size: 17px;
+  -moz-box-shadow: 0 0 5px #FF8008;
+  -webkit-box-shadow: 0 0 5px#FF8008;
+  box-shadow: 0 0 5px #FF8008;
+}
+
+.btn-block:hover{
+  color: black;
+}
+
+
+.results {
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.score-board {
+  width: 300px;
+  height: 150px;
+  color: #eeeeee;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.scores{
+  padding: 20px;
+}
+
+.badge {
+  width: 120px;
+  height: 65px;
+  color: black;
+  background-image: linear-gradient(to right, #f54c71 51%, #FF8008 100%);
+  padding: 16px 18px;
+  margin-bottom: 45px;
+  border-radius: 40px;
+  -moz-box-shadow: 0 0 5px #FF8008;
+  -webkit-box-shadow: 0 0 5px#FF8008;
+  box-shadow: 0 0 5px #FF8008;
+}
+
+.choices {
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.choice {
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 10px 0 10px;
+  padding: 30px;
+  -moz-box-shadow: 0 0 10px #FF8008;
+  -webkit-box-shadow: 0 0 10px#FF8008;
+  box-shadow: 0 0 10px #FF8008;
+}
+
+.result-table {
+  padding-top: 80px;
+  min-width: 450px;
+  display: grid;
+  grid-template-rows:  auto auto auto;
+  grid-template-columns: auto auto;
+  gap: 60px;
+}
+
+.result1 {
+  margin-top: 33px;
+  text-decoration: underline;
+}
+
+.result, .result1 {
+  color: white;
+  font-size: 30px;
+  line-height: 1vw;
+  font-weight: bold;
+}
+
+.result2 {
+  color: #eeeeee;
+  font-size: 30px;
+  line-height: 1vw;
+  font-weight: bold;
+}
+
+.guide {
+  color: #eeeeee;
+  font-size: 22px;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+.infos {
+	font-size: 18px;
+	width: 80%;
+	margin: 0 auto;
+	list-style: none;
+	padding: 0;
+	opacity: .7;
+}
+
+a {
+  color: #eeeeee;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:hover {
+	color: #FF8008;
+}
+
+html {
+  height: auto;
+}
+
+body {
+  height: auto;
+  background: #485563;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #242582, #2f2fa1);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #242582, #2f2fa1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: contain;
+}
+
+
+ul {
+  margin: 0;
+  padding: 5;
+}
+
+li {
+  float: left;
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.glow-on-hover {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 15px;
+
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 15px;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #f54c71 51%, #FF8008 100%);
+    left: 0;
+    top: 0;
+    border-radius: 15px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
