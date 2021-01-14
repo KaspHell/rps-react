@@ -4,7 +4,7 @@ With image recognition AI you can show physical objects to your devices camera t
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It's powered by [Tensorflow.js](https://www.tensorflow.org/js/guide/nodejs) and [Teachable Machine](https://teachablemachine.withgoogle.com/) by Google.
 
-![screenshot](https://drive.google.com/file/d/1KvLFf3xmTG-VsqCy9D-m5MAzTLjqf1w5/view?usp=sharing)
+![screenshot](screenshot.png)
 ---
 
 ## Available Scripts
